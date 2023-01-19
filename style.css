@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Creepster&family=Hind:wght@300;500;600;700&family=Nunito:ital,wght@0,300;0,400;1,200;1,600&family=Roboto&display=swap');
+
+.container-one {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1476362555312-ab9e108a0b7e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contect {
+    width: 50%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin-left: 25%;
+    justify-content: center;
+    padding-top: 15%;
+}
+
+h1 {
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120px;
+
+}
+
+h4 {
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+h3 {
+    color: white;
+    font-size: 19px;
+}
+
+.container-two {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.contect-two {
+    display: flex;
+    width: 100%;
+    height: 13%;
+}
+
+.left2 {
+    padding: 10px 10px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style: none;
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.left2 li:hover {
+    transform: scale(1.2);
+    transition: .90s;
+    cursor: pointer;
+
+}
+
+.right2 {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    width: 50%;
+    list-style: none;
+    font-family: Helvetica;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.right2 li:hover {
+    transform: scale(1.2);
+    transition: .90s;
+    cursor: pointer;
+
+}
+
+.Ashish {
+    margin-top: 1%;
+    border: solid;
+    padding: 2px 15px;
+    font-size: 65px;
+    width: 6.3%;
+    height: 100%;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.Ashish:hover {
+    transform: scale(1.1);
+}
+
+.center {
+
+    width: 50%;
+    height: 40%;
+    margin-left: 25%;
+    margin-top: 9%;
+}
+
+.ab {
+    color: black;
+    font-size: 43px;
+    padding: 10px 43px;
+    font-family: cursive;
+}
+
+p {
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 65px;
+}
+
+.end {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.idea {
+    width: 22%;
+    height: 100%;
+    margin-left: 15%;
+    padding-top: 9px
+}
+
+.design {
+    width: 22%;
+    height: 100%;
+    padding-top: 18px;
+}
+
+.development {
+    width: 22%;
+    height: 100%;
+    padding-top: 25px;
+    padding-left: 25px;
+    margin-left: ;
+}
+
+.succes {
+    width: 22%;
+    height: 100%;
+    margin-left: 25px;
+    padding-top: 28px;
+}
+
+img {
+    width: 100px;
+    color: black;
+    transition: .29s;
+
+}
+
+img:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+
+}
+
+.tag {
+    padding: 14px 25px;
+}
+
+
+hr {
+    width: 27%;
+    height: 3%;
+    background-color: black;
+    margin-left: 10px;
+}
+
+.DESIGN {
+    padding: 14px 15px;
+
+}
+
+.DEVELOPMENT {
+    padding: 15px 20px;
+
+
+}
+
+.SUCCESS {
+    padding: 15px 15px;
+
+}
+
+.container-three {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.last-left {
+    width: 40%;
+    height: 100%;
+    background-color: rgba(12, 12, 12, 0.63);
+}
+
+.last-h1 {
+    font-size: 55px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 70px 40px;
+}
+
+.last-p {
+    padding: 1%;
+    color: white;
+    padding-left: 40px;
+}
+
+button {
+    margin-top: 60px;
+    padding: 10px 25px;
+    margin-left: 40px;
+    border-radius: 20px;
+    transition: 1s;
+
+}
+
+button:hover {
+    transform: scale(1.1);
+    color: yellow;
+    background-color: rgba(44, 43, 43, 0.664);
+}
+
+.last-right {
+    width: 60%;
+    height: 100%;
+    
+}
+
+.logos {
+    margin-top: 13.5%;
+    height: 70%;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+.row1 {
+    width: 100%;
+    height: 33.5%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo-one {
+    width: 33.2%;
+    height: 12vmax;
+
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/0889c019-dfc3-4e24-85ff-d441c332e4bd/dbc2fzo-fc7b0c6d-1656-42b2-8493-291acb05dafa.png);
+    background-size: 220px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-two {
+    width: 33.2%;
+    height: 12vmax;
+
+    background-image: url(https://wallpapercave.com/wp/wp2860503.jpg);
+    background-size: 220px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-three {
+    width: 33.5%;
+    height: 12vmax;
+    background-image: url(https://thumbs.dreamstime.com/b/web-199721322.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+.row2 {
+    width: 100%;
+    height: 33.5%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo-four {
+    width: 33.2%;
+    height: 12vmax;
+    background-image: url(https://www.seekpng.com/png/detail/321-3211332_facebook-black-facebook-logo-on-black.png);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.logo-five {
+    width: 33.2%;
+    height: 12vmax;
+    background-image: url(https://grid.gograph.com/hbo-logo-hbo-letter-hbo-letter-logo-vector-clipart_gg142027093.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+   
+}
+
+.logo-six {
+    width: 33.3%;
+    height: 12vmax;
+    background-image: url(https://media2.easci.com/o1/intel/assets/partner-logos/white/TCS-Logo-White-RGB.png?f=a&z=405&w=320&h=129&q=90);
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+
+
+.row3 {
+    width: 100%;
+    height: 33.5%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo-seven {
+    width: 33.2%;
+    height: 12vmax;
+    background-image: url(https://www.freepnglogos.com/uploads/hotstar-logo-png/hotstar-logo-0.jpg);
+    background-size: 290px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-eight {
+    width: 33.2%;
+    height: 12vmax;
+    background-image: url(https://i.pinimg.com/originals/b4/5a/92/b45a92ebdc00069da00533f7da7db954.png);
+    background-size: 220px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.logo-nine {
+    width: 33.3%;
+    height: 12vmax;
+    background-image: url(https://appuals.com/wp-content/uploads/2020/03/youtube_logo_dark.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
